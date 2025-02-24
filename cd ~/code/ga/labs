@@ -1,0 +1,33 @@
+Last login: Mon Feb 24 15:22:25 on ttys002
+➜  ~ pwd
+/Users/rachelbarcellona
+➜  ~ ls
+Desktop   Downloads Movies    Pictures  code
+Documents Library   Music     Public
+➜  ~ cd code
+➜  code ls
+➜  code mkdir:
+zsh: command not found: mkdir:
+➜  code mkdir ga
+➜  code ls
+ga
+➜  code cd ga
+➜  ga mkdir labs
+➜  ga mkdir lectures
+➜  ga mkdir projects
+➜  ga mkdir sandbox
+➜  ga ls
+labs     lectures projects sandbox
+➜  ga cd labs
+➜  labs mkdir star-wars
+➜  labs cd star-wars
+➜  star-wars mkdir tie-fighter 1 darth-vader.txt
+➜  star-wars storm-trooper.txt mkdir galaxy-far-far-away mkdir millenium-falcon 
+➜  star-wars mkdir x-wing touch the-force.txt
+➜  star-wars mkdir galaxy-far-far-away 
+➜  star-wars mkdir yavin-4 mkdir millenium-falcon mkdir x-wing touch princess-leia.txt 
+➜  star-wars touch luke.txt
+➜  star-wars touch luke.txt
+➜  star-wars  touch han-solo.txt, chewbacca.txt touch luke.txt
+➜  star-wars  storm-trooper.txt
+cd ~/code/ga/labs
