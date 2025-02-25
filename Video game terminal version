@@ -1,0 +1,71 @@
+Last login: Tue Feb 25 12:09:50 on ttys000
+➜  ~ cd ~/code/ga/labs
+➜  labs     
+➜  labs mkdir choose-you-own-adventure
+➜  labs cd choose-you-own-adventure
+➜  choose-you-own-adventure touch app.js
+➜  choose-you-own-adventure npm install prompt-sync
+
+added 5 packages, removed 1 package, and audited 6 packages in 2s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+➜  choose-you-own-adventure 
+➜  choose-you-own-adventure const prompt = require('prompt-sync')();
+const username = prompt('What is your name? ');
+console.log(`Your name is ${username}`);
+
+let prompt = 'Video Game'
+let characterName;
+let name = 'Princess Power'
+
+let username = 'Rachel'
+if(username === 'Rachel'){
+    console.log{'Princess Power World Smash!'}
+} else if(username === 'Rachel'){
+    console.log('Lets Smash!')
+} else {
+    console.log('Power!')
+}
+
+let x = 500;
+x = 100;
+const z = 25;
+z = 100; // high score
+zsh: parse error near `}'
+➜  choose-you-own-adventure const prompt = require('prompt-sync')();
+function> const username = prompt('What is your name? ');
+zsh: unknown file attribute: y
+➜  choose-you-own-adventure console.log('Your name is ${username}');
+zsh: number expected
+➜  choose-you-own-adventure ls let prompt = 'Video Game' let characterName; let name = 'Princess Power'
+ls: =: No such file or directory
+ls: Video Game: No such file or directory
+ls: characterName: No such file or directory
+ls: let: No such file or directory
+ls: let: No such file or directory
+ls: prompt: No such file or directory
+zsh: bad math expression: operand expected at `='
+➜  choose-you-own-adventure let username = 'Rachel'
+zsh: bad math expression: operand expected at `='
+➜  choose-you-own-adventure if(username === 'Rachel'){
+zsh: no matches found: if(username === Rachel){
+➜  choose-you-own-adventure console.log('Let's Smash!')
+quote> }else{
+quote> console.log(Power!')
+zsh: number expected
+➜  choose-you-own-adventure }
+zsh: parse error near `}'
+➜  choose-you-own-adventure ls let x = 500; x = 100; const z = 25; z = 100; // high score
+ls: 500: No such file or directory
+ls: =: No such file or directory
+ls: let: No such file or directory
+ls: x: No such file or directory
+zsh: command not found: x
+zsh: command not found: const
+zsh: command not found: z
+zsh: permission denied: //
+➜  choose-you-own-adventure 
+
