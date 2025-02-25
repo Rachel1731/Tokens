@@ -15,7 +15,27 @@ if(username === 'Rachel'){
     console.log('Power!')
 } 
 
-let x = 500;
-x = 100; 
+let pointsScored = 30
+let highScore = 100
+
+let x = 30;
+x = 50; 
 const z = 25;
 z = 100; // high score
+
+highScore
+
+const princessPower = 30
+const marshmallowMan = 50
+const alligatorBoy = 25
+const luckyNumber = 15
+console.log(highScore);
+
+const nextLevel
+let princessPower
+function takeDamage(){
+    player.health -= 1;
+    player.damage += 1;
+    player.points -= 100;
+}
+
