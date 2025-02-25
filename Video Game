@@ -1,0 +1,21 @@
+const prompt = require('prompt-sync')();
+const username = prompt('What is your name? ');
+console.log(`Your name is ${username}`);
+
+let prompt = 'Video Game'
+let characterName;
+let name = 'Princess Power'
+
+let username = 'Rachel'
+if(username === 'Rachel'){
+    console.log{'Princess Power World Smash!'}
+} else if(username === 'Rachel'){
+    console.log('Lets Smash!')
+} else {
+    console.log('Power!')
+} 
+
+let x = 500;
+x = 100; 
+const z = 25;
+z = 100; // high score
